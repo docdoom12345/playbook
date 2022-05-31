@@ -12,3 +12,7 @@
        copy:
          content: "testing"
          dest: /home/saiprasanth/testing
+     - name: install package
+       yum:
+         name: git
+         state: present
