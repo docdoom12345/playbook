@@ -6,3 +6,7 @@
         msg: "Hello World"
      - name: test ping
        ping:
+     - name: copy content
+       copy:
+         content: "testing"
+         dest: /home/saiprasanth/testing
