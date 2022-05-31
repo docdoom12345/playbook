@@ -1,6 +1,9 @@
 ---
  - hosts: all
    tasks:
-     - name: print message
-       debug:
-         msg: "hello world"
+     - name: create file
+       file:
+         path: /home/saiprasanth/sample_file
+         state: touch
+         owner: saiprasanth
+         group: saiprasanth
