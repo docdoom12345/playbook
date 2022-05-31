@@ -12,7 +12,3 @@
        copy:
          content: "testing"
          dest: /home/saiprasanth/testing
-     - name: install git
-       dnf:
-         name: git
-         state: present
