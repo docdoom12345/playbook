@@ -7,3 +7,4 @@
          state: touch
          owner: saiprasanth
          group: saiprasanth
+         mode: '0644'
